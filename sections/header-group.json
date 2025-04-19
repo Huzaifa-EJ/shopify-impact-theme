@@ -39,7 +39,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "/* Change header background color */.header-wrapper,.site-header,.header {background-color: #1a1a1a !important; /* Replace with your desired color */}"
+        "/* Change header background color */.header-wrapper,.site-header,.header {background-color: !important; /* Replace with your desired color */}"
       ],
       "settings": {
         "enable_sticky": true,
