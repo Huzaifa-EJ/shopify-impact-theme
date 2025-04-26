@@ -5,10 +5,10 @@
     #shopify-section-{{ section.id }} {
       --section-spacing-inline: 0;
       --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.125rem{% elsif section.settings.text_size == 'small' %}2.5rem{% elsif section.settings.text_size == 'medium' %}3.75rem{% elsif section.settings.text_size == 'large' %}5rem{% else %}7.5rem{% endif %};
-      --section-padding-top: {{ section.settings.padding_top | default: 40 }}px;
-      --section-padding-bottom: {{ section.settings.padding_bottom | default: 40 }}px;
-      padding-top: var(--section-padding-top);
-      padding-bottom: var(--section-padding-bottom);
+      --section-margin-top: {{ section.settings.margin_top | default: 40 }}px;
+      --section-margin-bottom: {{ section.settings.margin_bottom | default: 40 }}px;
+      margin-top: var(--section-margin-top);
+      margin-bottom: var(--section-margin-bottom);
     }
 
     @media screen and (min-width: 700px) {
@@ -36,10 +36,10 @@
         <visibility-progress class="scrolling-text__wrapper">
           {{- section_content -}}
         </visibility-progress>
-       {%- else -%}
-         <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
-           {{- section_content -}}
-         </marquee-text>
+      {%- else -%}
+        <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
+          {{- section_content -}}
+        </marquee-text>
       {%- endif -%}
     </div>
   </div>
@@ -138,12 +138,12 @@
     },
     {
       "type": "header",
-      "content": "Padding"
+      "content": "Margins"
     },
     {
       "type": "range",
-      "id": "padding_top",
-      "label": "Padding top",
+      "id": "margin_top",
+      "label": "Margin top",
       "min": 0,
       "max": 160,
       "step": 4,
@@ -152,8 +152,8 @@
     },
     {
       "type": "range",
-      "id": "padding_bottom",
-      "label": "Padding bottom",
+      "id": "margin_bottom",
+      "label": "Margin bottom",
       "min": 0,
       "max": 160,
       "step": 4,
