@@ -38,7 +38,7 @@
         "slide-2"
       ],
       "custom_css": [
-        ".button{border-radius: 0;}"
+        ".button {border-radius: 0; border-color: ##724b1e}"
       ],
       "settings": {
         "full_width": true,
