@@ -9,6 +9,63 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_kdYNF8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_tjnE4r": {
+          "type": "subheading",
+          "settings": {
+            "text": "OROVA"
+          }
+        },
+        "heading_Vrc9Qa": {
+          "type": "heading",
+          "settings": {
+            "text": "Where Everyday Elegance Begins",
+            "heading_tag": "h0"
+          }
+        },
+        "richtext_QhJAGn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Timeless jewelry designed to elevate your style, effortlessly</p>"
+          }
+        },
+        "button_LxbpQP": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tjnE4r",
+        "heading_Vrc9Qa",
+        "richtext_QhJAGn",
+        "button_LxbpQP"
+      ],
+      "custom_css": [
+        ".button {border-radius: 0;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Orova_Banner_-_webp.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#724b1e",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -24,7 +81,7 @@
             "heading_tag": "h0",
             "button_text": "SHOP NOW",
             "button_link": "shopify://collections/all",
-            "text_color": "#000000",
+            "text_color": "#724b1e",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
@@ -37,6 +94,7 @@
       "block_order": [
         "slide-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {border-radius: 0; border-color: #724b1e;}"
       ],
@@ -935,6 +993,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_kdYNF8",
     "slideshow",
     "scrolling-text",
     "collection-list",
