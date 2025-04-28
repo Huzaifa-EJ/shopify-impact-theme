@@ -680,25 +680,25 @@
         "product_YFGWFG": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 52,
-            "vertical_position": 25
+            "product": "lumi-chain",
+            "horizontal_position": 50,
+            "vertical_position": 47
           }
         },
         "product_T6eAbP": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 75,
-            "vertical_position": 53
+            "product": "zehra-duet-1",
+            "horizontal_position": 58,
+            "vertical_position": 72
           }
         },
         "product_AK3rrf": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
+            "product": "orova-wrap",
+            "horizontal_position": 30,
+            "vertical_position": 80
           }
         }
       },
@@ -711,6 +711,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify://shop_images/Shop_By_Look_Model.webp",
         "title": "Shop the look",
         "content": "",
         "background": "",
