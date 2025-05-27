@@ -59,6 +59,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Orova_banner_1526772b-af03-412a-bb68-58bd4c7ef459.png",
+        "mobile_image": "shopify://shop_images/orova-bg-background.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-end sm:text-end",
         "text_color": "#ffffff",
