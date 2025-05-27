@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Free shipping for first 100 customers",
             "url": ""
           }
         }
@@ -25,15 +25,14 @@
       "block_order": [
         "message"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#bbab83",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#011d14"
       }
     },
     "header": {
