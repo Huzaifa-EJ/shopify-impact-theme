@@ -63,7 +63,7 @@
         "desktop_text_position": "sm:place-self-center-end sm:text-end",
         "text_color": "#ffffff",
         "overlay_color": "#011d14",
-        "overlay_opacity": 0
+        "overlay_opacity": 15
       }
     },
     "scrolling-text": {
