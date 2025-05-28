@@ -9878,3 +9878,6 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.collection-list .collection-list_item:has(a[href="collections/launch-collection"])
+{display:none}
