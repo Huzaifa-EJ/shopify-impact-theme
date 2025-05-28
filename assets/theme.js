@@ -278,18 +278,6 @@ if (!window.customElements.get("confirm-button")) {
   window.customElements.define("confirm-button", ConfirmButton, { extends: "button" });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  const collectionItems = document.querySelectorAll(".collection-list .collection-list_item");
-
-  collectionItems.forEach(function (item) {
-    const link = item.querySelector('a[href*="collections/launch-collection"]');
-    if (link) {
-      item.style.display = "none";
-    }
-  });
-});
-
-
 // js/common/actions/controls.js
 var PageDots = class extends HTMLElement {
   connectedCallback() {
