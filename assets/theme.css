@@ -9879,5 +9879,5 @@ split-lines {
   overflow: hidden;
 }
 
-.collection-list .collection-list_item:has(a[href="collections/launch-collection"])
+.collection-list .collection-list__item:has(a[href="collections/launch-collection"])
 {display:none}
