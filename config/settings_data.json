@@ -23,10 +23,10 @@
     "header_text_color": "#ffffff",
     "footer_background": "#ffffff",
     "footer_text_color": "#1a1a1a",
-    "primary_button_background": "#ffffff",
+    "primary_button_background": "#000000",
     "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#f0c417",
-    "secondary_button_text_color": "#1a1a1a",
+    "secondary_button_background": "#ffffff",
+    "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#1a1a1a",
     "product_primary_badge_background": "#803cee",
     "heading_font": "din_next_n7",
@@ -42,23 +42,7 @@
     "favicon": "shopify://shop_images/favicon-32x32.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#011d14",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#011d14",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
-        }
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {
