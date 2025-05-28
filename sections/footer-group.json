@@ -116,8 +116,8 @@
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "content": "<p>Orova is a Pakistan-based jewelry brand bringing timeless elegance to your everyday look. We craft affordable, high-quality artificial jewelry designed to celebrate your unique style.</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
