@@ -50,7 +50,7 @@
         "button_LxbpQP"
       ],
       "custom_css": [
-        ".button {border-radius: 0;}"
+        ".button {border-radius: 0; color: wh}"
       ],
       "name": "Image with text overlay",
       "settings": {
