@@ -259,6 +259,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "image": "shopify://shop_images/shop-by-look_model.webp",
         "title": "Shop the look",
         "content": "",
         "background": "",
