@@ -57,7 +57,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Orova_banner_-_webpp.webp",
+        "image": "shopify://shop_images/orova-banner.webp",
         "mobile_image": "shopify://shop_images/orova-bg-background-webp.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-end sm:text-end",
@@ -259,7 +259,6 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify://shop_images/Shop_By_Look_Model.webp",
         "title": "Shop the look",
         "content": "",
         "background": "",
