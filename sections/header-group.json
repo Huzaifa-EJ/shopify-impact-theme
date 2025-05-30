@@ -38,10 +38,10 @@
     "header": {
       "type": "header",
       "blocks": {
-        "mega_menu_9XEweY": {
+        "mega_menu_9JD7w4": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "suu",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
@@ -53,7 +53,7 @@
             "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
-            "product": "",
+            "product": "blush-bloom",
             "product_card_background": "",
             "product_card_text_color": "",
             "promo_content_layout": "grid",
@@ -63,12 +63,12 @@
         }
       },
       "block_order": [
-        "mega_menu_9XEweY"
+        "mega_menu_9JD7w4"
       ],
       "custom_css": [],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": false,
+        "hide_on_scroll": true,
         "logo": "shopify://shop_images/Orova_Jewellery_Transparent.webp",
         "logo_max_width": 100,
         "logo_mobile_max_width": 100,
